@@ -133,7 +133,9 @@ main h2 {
 }
 
 #about .about-pic {
- text-align: bottom;
+ text-align:center;
+ justify-content: center;
+ margin-top: 8px;
  }
 
 /* skill section */
@@ -143,12 +145,14 @@ main h2 {
   justify-content: space-between;
   margin: 30px;
   margin-left: 10px;
+  margin-right: 0;
+  
   margin-bottom: -50px;
 }
 
 .skill-item {
   display: flex;
-  background: #8aaebb3d;
+  background:rgb(218, 228, 230) ;
   margin-right: 8px;
   padding: 10px;
   border-radius: 10px;
