@@ -110,7 +110,31 @@ main h2 {
  
 }
 
+#about .container {
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  background-image:url(../image/secret-gardens.jpg);
+  
 
+}
+
+#about .about-text {
+  line-height: 2em;
+  margin-left: 20px;
+}
+
+#about .about-text2 {
+ text-align: center;
+ margin-top: 120px;
+ line-height: 6em;
+ color: rgb(175, 159, 141);
+
+}
+
+#about .about-pic {
+ text-align: bottom;
+ }
 
 /* skill section */
 .skill-list {
@@ -124,7 +148,7 @@ main h2 {
 
 .skill-item {
   display: flex;
-  background: #beddb03d;
+  background: #8aaebb3d;
   margin-right: 8px;
   padding: 10px;
   border-radius: 10px;
@@ -274,14 +298,15 @@ footer .copyright{
     margin-bottom: 0;
   }
   /* About */
-  #about p;not(:last-child) {
+  #about .about-text,.about-text2 {
     font-size: 10px;
     margin-bottom: 20px;
 
   }
 
-  #about p {
-    text-align: left;
+  #about .about-pic {
+
+    display: none;
   }
 
   /* フッター */
