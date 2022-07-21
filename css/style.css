@@ -8,6 +8,10 @@ body {
   color: #333;
 }
 
+.wrap {
+  overflow: hidden;
+}
+
 li {
   list-style: none;
 }
@@ -201,6 +205,7 @@ footer .copyright{
     font-size: 13px;
     text-align: center;
     
+    
   }
 
   .pc-only {
@@ -301,6 +306,7 @@ footer .copyright{
   .skill-item {
     width: 100%;
     margin-bottom: 35px;
+    border-radius: 0%;
   }
   .skill-item:last-child {
     margin-bottom: 0;
@@ -308,7 +314,8 @@ footer .copyright{
   /* About */
   #about .about-text,.about-text2 {
     font-size: 10px;
-    margin-bottom: 20px;
+    margin: 20px;
+    
 
   }
 
