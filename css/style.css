@@ -119,14 +119,17 @@ main h2 {
   display: flex;
   align-items: center;  
   justify-content: center;
-  background-image:url(../image/bg001.jpg); 
-
+  background-color: rgb(205, 221, 213);
+  
 }
 
+
+
 #about .about-text {
-  line-height: 2.5em;
-  margin-left: 20px;
- 
+  text-align: center;
+ margin-top: 80px;
+ line-height: 3em;
+ color: rgb(110, 98, 84);
 }
 
 #about .about-text2 {
